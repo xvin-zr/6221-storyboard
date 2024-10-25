@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/main.css" />
+    <title>Storyboard</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="text-center w-full py-2 border-b backdrop-blur-sm">
+        <h1 class="font-bold text-xl">Lorem ipsum dolor sit amet</h1>
+      </header>
+      <main>
+        <section class="grid grid-cols-[6fr_4fr]">
+          <figure>
+            <h2 class="font-bold text-lg">
+              CO<sub>2</sub> emissions by sector
+            </h2>
+            <ul class="emissions-by-sector__legend grid grid-cols-5"></ul>
+            <svg class="emissions-by-sector"></svg>
+          </figure>
+        </section>
+      </main>
+      <section class="navigation"></section>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+    <script
+      type="module"
+      src="/src/emissions-by-sector/area-chart-axes.js"
+    ></script>
+  </body>
+</html>

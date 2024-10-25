@@ -1,0 +1,1552 @@
+[
+  {
+    "year": "1990",
+    "sector": "other_fuel",
+    "value": 766480000.235
+  },
+  {
+    "year": "1990",
+    "sector": "bunker_fuel",
+    "value": 621835014.49
+  },
+  {
+    "year": "1990",
+    "sector": "waste",
+    "value": 1364190002.825
+  },
+  {
+    "year": "1990",
+    "sector": "buildings",
+    "value": 2871999909.86
+  },
+  {
+    "year": "1990",
+    "sector": "industry",
+    "value": 967040000.0550001
+  },
+  {
+    "year": "1990",
+    "sector": "fugitive",
+    "value": 2184644989.9
+  },
+  {
+    "year": "1990",
+    "sector": "agriculture",
+    "value": 4974870011.995
+  },
+  {
+    "year": "1990",
+    "sector": "manufacturing_construction",
+    "value": 3962970004.3199997
+  },
+  {
+    "year": "1990",
+    "sector": "transport",
+    "value": 4394274949.01
+  },
+  {
+    "year": "1990",
+    "sector": "electricity_heat",
+    "value": 8599219890.6
+  },
+  {
+    "year": "1991",
+    "sector": "other_fuel",
+    "value": 767504974.985
+  },
+  {
+    "year": "1991",
+    "sector": "bunker_fuel",
+    "value": 630195000.445
+  },
+  {
+    "year": "1991",
+    "sector": "waste",
+    "value": 1394930000.09
+  },
+  {
+    "year": "1991",
+    "sector": "buildings",
+    "value": 2897694999.075
+  },
+  {
+    "year": "1991",
+    "sector": "industry",
+    "value": 973449999.69
+  },
+  {
+    "year": "1991",
+    "sector": "fugitive",
+    "value": 2208979989.99
+  },
+  {
+    "year": "1991",
+    "sector": "agriculture",
+    "value": 4964829978.745
+  },
+  {
+    "year": "1991",
+    "sector": "manufacturing_construction",
+    "value": 3884840015.23
+  },
+  {
+    "year": "1991",
+    "sector": "transport",
+    "value": 4427290050.005
+  },
+  {
+    "year": "1991",
+    "sector": "electricity_heat",
+    "value": 8735795000.735
+  },
+  {
+    "year": "1992",
+    "sector": "other_fuel",
+    "value": 683045000.145
+  },
+  {
+    "year": "1992",
+    "sector": "bunker_fuel",
+    "value": 665224999.535
+  },
+  {
+    "year": "1992",
+    "sector": "waste",
+    "value": 1418040052.0900002
+  },
+  {
+    "year": "1992",
+    "sector": "buildings",
+    "value": 2786605000.95
+  },
+  {
+    "year": "1992",
+    "sector": "industry",
+    "value": 1017384999.945
+  },
+  {
+    "year": "1992",
+    "sector": "fugitive",
+    "value": 2191140001
+  },
+  {
+    "year": "1992",
+    "sector": "agriculture",
+    "value": 4944425000.91
+  },
+  {
+    "year": "1992",
+    "sector": "manufacturing_construction",
+    "value": 3750455002.33
+  },
+  {
+    "year": "1992",
+    "sector": "transport",
+    "value": 4513915000.49
+  },
+  {
+    "year": "1992",
+    "sector": "electricity_heat",
+    "value": 8892604905.474998
+  },
+  {
+    "year": "1993",
+    "sector": "other_fuel",
+    "value": 695319998.98
+  },
+  {
+    "year": "1993",
+    "sector": "bunker_fuel",
+    "value": 656840004.915
+  },
+  {
+    "year": "1993",
+    "sector": "waste",
+    "value": 1444129997.73
+  },
+  {
+    "year": "1993",
+    "sector": "buildings",
+    "value": 2853379999.9700003
+  },
+  {
+    "year": "1993",
+    "sector": "industry",
+    "value": 1033350025.2950001
+  },
+  {
+    "year": "1993",
+    "sector": "fugitive",
+    "value": 2212360000.985
+  },
+  {
+    "year": "1993",
+    "sector": "agriculture",
+    "value": 4913970001.514999
+  },
+  {
+    "year": "1993",
+    "sector": "manufacturing_construction",
+    "value": 3701020033.74
+  },
+  {
+    "year": "1993",
+    "sector": "transport",
+    "value": 4558985005.17
+  },
+  {
+    "year": "1993",
+    "sector": "electricity_heat",
+    "value": 8935785119.5
+  },
+  {
+    "year": "1994",
+    "sector": "other_fuel",
+    "value": 666024999.925
+  },
+  {
+    "year": "1994",
+    "sector": "bunker_fuel",
+    "value": 681324999.985
+  },
+  {
+    "year": "1994",
+    "sector": "waste",
+    "value": 1470734999.655
+  },
+  {
+    "year": "1994",
+    "sector": "buildings",
+    "value": 2766264999.41
+  },
+  {
+    "year": "1994",
+    "sector": "industry",
+    "value": 1141970049.705
+  },
+  {
+    "year": "1994",
+    "sector": "fugitive",
+    "value": 2218934908
+  },
+  {
+    "year": "1994",
+    "sector": "agriculture",
+    "value": 4956629989.495
+  },
+  {
+    "year": "1994",
+    "sector": "manufacturing_construction",
+    "value": 3717470114.9849997
+  },
+  {
+    "year": "1994",
+    "sector": "transport",
+    "value": 4642100150.74
+  },
+  {
+    "year": "1994",
+    "sector": "electricity_heat",
+    "value": 9036259989.575
+  },
+  {
+    "year": "1995",
+    "sector": "other_fuel",
+    "value": 616975000.495
+  },
+  {
+    "year": "1995",
+    "sector": "bunker_fuel",
+    "value": 705274999.98
+  },
+  {
+    "year": "1995",
+    "sector": "waste",
+    "value": 1476260001.4650002
+  },
+  {
+    "year": "1995",
+    "sector": "buildings",
+    "value": 2844099997.385
+  },
+  {
+    "year": "1995",
+    "sector": "industry",
+    "value": 1214985000.205
+  },
+  {
+    "year": "1995",
+    "sector": "fugitive",
+    "value": 2295214980.45
+  },
+  {
+    "year": "1995",
+    "sector": "agriculture",
+    "value": 5011794988.43
+  },
+  {
+    "year": "1995",
+    "sector": "manufacturing_construction",
+    "value": 3944809999.71
+  },
+  {
+    "year": "1995",
+    "sector": "transport",
+    "value": 4766634985.025001
+  },
+  {
+    "year": "1995",
+    "sector": "electricity_heat",
+    "value": 9222124991.95
+  },
+  {
+    "year": "1996",
+    "sector": "other_fuel",
+    "value": 543994999.37
+  },
+  {
+    "year": "1996",
+    "sector": "bunker_fuel",
+    "value": 725464999.955
+  },
+  {
+    "year": "1996",
+    "sector": "waste",
+    "value": 1478045000.0349998
+  },
+  {
+    "year": "1996",
+    "sector": "buildings",
+    "value": 2906844913.95
+  },
+  {
+    "year": "1996",
+    "sector": "industry",
+    "value": 1266654949.8000002
+  },
+  {
+    "year": "1996",
+    "sector": "fugitive",
+    "value": 2370585049.94
+  },
+  {
+    "year": "1996",
+    "sector": "agriculture",
+    "value": 5038609985.795
+  },
+  {
+    "year": "1996",
+    "sector": "manufacturing_construction",
+    "value": 3834199997.565
+  },
+  {
+    "year": "1996",
+    "sector": "transport",
+    "value": 4965399790.175
+  },
+  {
+    "year": "1996",
+    "sector": "electricity_heat",
+    "value": 9578159997.955
+  },
+  {
+    "year": "1997",
+    "sector": "other_fuel",
+    "value": 592919999.99
+  },
+  {
+    "year": "1997",
+    "sector": "bunker_fuel",
+    "value": 750094998.72
+  },
+  {
+    "year": "1997",
+    "sector": "waste",
+    "value": 1474084949.875
+  },
+  {
+    "year": "1997",
+    "sector": "buildings",
+    "value": 2888299999.985
+  },
+  {
+    "year": "1997",
+    "sector": "industry",
+    "value": 1315989949.935
+  },
+  {
+    "year": "1997",
+    "sector": "fugitive",
+    "value": 2381485000.1400003
+  },
+  {
+    "year": "1997",
+    "sector": "agriculture",
+    "value": 4968004964.97
+  },
+  {
+    "year": "1997",
+    "sector": "manufacturing_construction",
+    "value": 3859164989.965
+  },
+  {
+    "year": "1997",
+    "sector": "transport",
+    "value": 5030035011.475
+  },
+  {
+    "year": "1997",
+    "sector": "electricity_heat",
+    "value": 9846869997.93
+  },
+  {
+    "year": "1998",
+    "sector": "other_fuel",
+    "value": 569409999.995
+  },
+  {
+    "year": "1998",
+    "sector": "bunker_fuel",
+    "value": 772080000.145
+  },
+  {
+    "year": "1998",
+    "sector": "waste",
+    "value": 1466035049.535
+  },
+  {
+    "year": "1998",
+    "sector": "buildings",
+    "value": 2733534999.49
+  },
+  {
+    "year": "1998",
+    "sector": "industry",
+    "value": 1320639950.195
+  },
+  {
+    "year": "1998",
+    "sector": "fugitive",
+    "value": 2377910000
+  },
+  {
+    "year": "1998",
+    "sector": "agriculture",
+    "value": 5023579965.445
+  },
+  {
+    "year": "1998",
+    "sector": "manufacturing_construction",
+    "value": 3858254980.0199995
+  },
+  {
+    "year": "1998",
+    "sector": "transport",
+    "value": 5140985010.08
+  },
+  {
+    "year": "1998",
+    "sector": "electricity_heat",
+    "value": 10065579963.18
+  },
+  {
+    "year": "1999",
+    "sector": "other_fuel",
+    "value": 578649999.74
+  },
+  {
+    "year": "1999",
+    "sector": "bunker_fuel",
+    "value": 810849974.86
+  },
+  {
+    "year": "1999",
+    "sector": "waste",
+    "value": 1464210000.165
+  },
+  {
+    "year": "1999",
+    "sector": "buildings",
+    "value": 2805059992.49
+  },
+  {
+    "year": "1999",
+    "sector": "industry",
+    "value": 1329794999.955
+  },
+  {
+    "year": "1999",
+    "sector": "fugitive",
+    "value": 2366864999.745
+  },
+  {
+    "year": "1999",
+    "sector": "agriculture",
+    "value": 5079835028.245
+  },
+  {
+    "year": "1999",
+    "sector": "manufacturing_construction",
+    "value": 3699540000
+  },
+  {
+    "year": "1999",
+    "sector": "transport",
+    "value": 5281520046.245
+  },
+  {
+    "year": "1999",
+    "sector": "electricity_heat",
+    "value": 10120259992.205
+  },
+  {
+    "year": "2000",
+    "sector": "other_fuel",
+    "value": 519724989.75
+  },
+  {
+    "year": "2000",
+    "sector": "bunker_fuel",
+    "value": 837245024.785
+  },
+  {
+    "year": "2000",
+    "sector": "waste",
+    "value": 1466500049.3950002
+  },
+  {
+    "year": "2000",
+    "sector": "buildings",
+    "value": 2796605025.5950003
+  },
+  {
+    "year": "2000",
+    "sector": "industry",
+    "value": 1388935049.9950001
+  },
+  {
+    "year": "2000",
+    "sector": "fugitive",
+    "value": 2483384908.89
+  },
+  {
+    "year": "2000",
+    "sector": "agriculture",
+    "value": 5074979851.235
+  },
+  {
+    "year": "2000",
+    "sector": "manufacturing_construction",
+    "value": 3875110014.4449997
+  },
+  {
+    "year": "2000",
+    "sector": "transport",
+    "value": 5454089993.030001
+  },
+  {
+    "year": "2000",
+    "sector": "electricity_heat",
+    "value": 10521054998.970001
+  },
+  {
+    "year": "2001",
+    "sector": "other_fuel",
+    "value": 531080015
+  },
+  {
+    "year": "2001",
+    "sector": "bunker_fuel",
+    "value": 805604999.89
+  },
+  {
+    "year": "2001",
+    "sector": "waste",
+    "value": 1452650049.4850001
+  },
+  {
+    "year": "2001",
+    "sector": "buildings",
+    "value": 2818775009.785
+  },
+  {
+    "year": "2001",
+    "sector": "industry",
+    "value": 1413819998.77
+  },
+  {
+    "year": "2001",
+    "sector": "fugitive",
+    "value": 2506699989.665
+  },
+  {
+    "year": "2001",
+    "sector": "agriculture",
+    "value": 5084580025.41
+  },
+  {
+    "year": "2001",
+    "sector": "manufacturing_construction",
+    "value": 3899015024.9300003
+  },
+  {
+    "year": "2001",
+    "sector": "transport",
+    "value": 5501475004.245
+  },
+  {
+    "year": "2001",
+    "sector": "electricity_heat",
+    "value": 10771444999.470001
+  },
+  {
+    "year": "2002",
+    "sector": "other_fuel",
+    "value": 532764999.925
+  },
+  {
+    "year": "2002",
+    "sector": "bunker_fuel",
+    "value": 841064999.995
+  },
+  {
+    "year": "2002",
+    "sector": "waste",
+    "value": 1447699949.77
+  },
+  {
+    "year": "2002",
+    "sector": "buildings",
+    "value": 2818885000.465
+  },
+  {
+    "year": "2002",
+    "sector": "industry",
+    "value": 1465889998.915
+  },
+  {
+    "year": "2002",
+    "sector": "fugitive",
+    "value": 2487959999.44
+  },
+  {
+    "year": "2002",
+    "sector": "agriculture",
+    "value": 5143175014.66
+  },
+  {
+    "year": "2002",
+    "sector": "manufacturing_construction",
+    "value": 3892994959.8999996
+  },
+  {
+    "year": "2002",
+    "sector": "transport",
+    "value": 5638409994.924999
+  },
+  {
+    "year": "2002",
+    "sector": "electricity_heat",
+    "value": 10961804990.475
+  },
+  {
+    "year": "2003",
+    "sector": "other_fuel",
+    "value": 551849999.97
+  },
+  {
+    "year": "2003",
+    "sector": "bunker_fuel",
+    "value": 844890000.04
+  },
+  {
+    "year": "2003",
+    "sector": "waste",
+    "value": 1443420002.5149999
+  },
+  {
+    "year": "2003",
+    "sector": "buildings",
+    "value": 2906229990.085
+  },
+  {
+    "year": "2003",
+    "sector": "industry",
+    "value": 1559794998.97
+  },
+  {
+    "year": "2003",
+    "sector": "fugitive",
+    "value": 2658670008.185
+  },
+  {
+    "year": "2003",
+    "sector": "agriculture",
+    "value": 5139010148.05
+  },
+  {
+    "year": "2003",
+    "sector": "manufacturing_construction",
+    "value": 4081669949.98
+  },
+  {
+    "year": "2003",
+    "sector": "transport",
+    "value": 5763484959.059999
+  },
+  {
+    "year": "2003",
+    "sector": "electricity_heat",
+    "value": 11571774983.625
+  },
+  {
+    "year": "2004",
+    "sector": "other_fuel",
+    "value": 586920000.6949999
+  },
+  {
+    "year": "2004",
+    "sector": "bunker_fuel",
+    "value": 919925000.975
+  },
+  {
+    "year": "2004",
+    "sector": "waste",
+    "value": 1431610044.575
+  },
+  {
+    "year": "2004",
+    "sector": "buildings",
+    "value": 2948320098.835
+  },
+  {
+    "year": "2004",
+    "sector": "industry",
+    "value": 1640830000.2350001
+  },
+  {
+    "year": "2004",
+    "sector": "fugitive",
+    "value": 2763509934.705
+  },
+  {
+    "year": "2004",
+    "sector": "agriculture",
+    "value": 5249420010.34
+  },
+  {
+    "year": "2004",
+    "sector": "manufacturing_construction",
+    "value": 4516514962
+  },
+  {
+    "year": "2004",
+    "sector": "transport",
+    "value": 6012574998.79
+  },
+  {
+    "year": "2004",
+    "sector": "electricity_heat",
+    "value": 11956720044.98
+  },
+  {
+    "year": "2005",
+    "sector": "other_fuel",
+    "value": 608524999.99
+  },
+  {
+    "year": "2005",
+    "sector": "bunker_fuel",
+    "value": 966305000.775
+  },
+  {
+    "year": "2005",
+    "sector": "waste",
+    "value": 1422355050.08
+  },
+  {
+    "year": "2005",
+    "sector": "buildings",
+    "value": 2948804999.535
+  },
+  {
+    "year": "2005",
+    "sector": "industry",
+    "value": 1736875000.0500002
+  },
+  {
+    "year": "2005",
+    "sector": "fugitive",
+    "value": 2889069999.9
+  },
+  {
+    "year": "2005",
+    "sector": "agriculture",
+    "value": 5285095196.24
+  },
+  {
+    "year": "2005",
+    "sector": "manufacturing_construction",
+    "value": 4937139802.440001
+  },
+  {
+    "year": "2005",
+    "sector": "transport",
+    "value": 6133279829.559999
+  },
+  {
+    "year": "2005",
+    "sector": "electricity_heat",
+    "value": 12333415001.55
+  },
+  {
+    "year": "2006",
+    "sector": "other_fuel",
+    "value": 618604999.8199999
+  },
+  {
+    "year": "2006",
+    "sector": "bunker_fuel",
+    "value": 1017274998.36
+  },
+  {
+    "year": "2006",
+    "sector": "waste",
+    "value": 1433554999.8600001
+  },
+  {
+    "year": "2006",
+    "sector": "buildings",
+    "value": 2919524990.49
+  },
+  {
+    "year": "2006",
+    "sector": "industry",
+    "value": 1868644999.85
+  },
+  {
+    "year": "2006",
+    "sector": "fugitive",
+    "value": 2932144988.98
+  },
+  {
+    "year": "2006",
+    "sector": "agriculture",
+    "value": 5345644993.334999
+  },
+  {
+    "year": "2006",
+    "sector": "manufacturing_construction",
+    "value": 5182135022.185
+  },
+  {
+    "year": "2006",
+    "sector": "transport",
+    "value": 6263019955.115
+  },
+  {
+    "year": "2006",
+    "sector": "electricity_heat",
+    "value": 12825650012.135
+  },
+  {
+    "year": "2007",
+    "sector": "other_fuel",
+    "value": 621230000.215
+  },
+  {
+    "year": "2007",
+    "sector": "bunker_fuel",
+    "value": 1065490047.935
+  },
+  {
+    "year": "2007",
+    "sector": "waste",
+    "value": 1441535000.38
+  },
+  {
+    "year": "2007",
+    "sector": "buildings",
+    "value": 2915054944.955
+  },
+  {
+    "year": "2007",
+    "sector": "industry",
+    "value": 1996924998.92
+  },
+  {
+    "year": "2007",
+    "sector": "fugitive",
+    "value": 2978759910.1
+  },
+  {
+    "year": "2007",
+    "sector": "agriculture",
+    "value": 5423960031.924999
+  },
+  {
+    "year": "2007",
+    "sector": "manufacturing_construction",
+    "value": 5457179998.925
+  },
+  {
+    "year": "2007",
+    "sector": "transport",
+    "value": 6451030040.184999
+  },
+  {
+    "year": "2007",
+    "sector": "electricity_heat",
+    "value": 13389589999.2
+  },
+  {
+    "year": "2008",
+    "sector": "other_fuel",
+    "value": 628650000.03
+  },
+  {
+    "year": "2008",
+    "sector": "bunker_fuel",
+    "value": 1078119999.98
+  },
+  {
+    "year": "2008",
+    "sector": "waste",
+    "value": 1446674999.495
+  },
+  {
+    "year": "2008",
+    "sector": "buildings",
+    "value": 2979749999.94
+  },
+  {
+    "year": "2008",
+    "sector": "industry",
+    "value": 2041204999.4850001
+  },
+  {
+    "year": "2008",
+    "sector": "fugitive",
+    "value": 3010229989.74
+  },
+  {
+    "year": "2008",
+    "sector": "agriculture",
+    "value": 5430934786.235
+  },
+  {
+    "year": "2008",
+    "sector": "manufacturing_construction",
+    "value": 5573600000.205
+  },
+  {
+    "year": "2008",
+    "sector": "transport",
+    "value": 6452704999.955
+  },
+  {
+    "year": "2008",
+    "sector": "electricity_heat",
+    "value": 13417470066.895
+  },
+  {
+    "year": "2009",
+    "sector": "other_fuel",
+    "value": 616514999.9200001
+  },
+  {
+    "year": "2009",
+    "sector": "bunker_fuel",
+    "value": 1019395028.465
+  },
+  {
+    "year": "2009",
+    "sector": "waste",
+    "value": 1453989999.4450002
+  },
+  {
+    "year": "2009",
+    "sector": "buildings",
+    "value": 2926549984.99
+  },
+  {
+    "year": "2009",
+    "sector": "industry",
+    "value": 2088365001.1550002
+  },
+  {
+    "year": "2009",
+    "sector": "fugitive",
+    "value": 2959625010.2349997
+  },
+  {
+    "year": "2009",
+    "sector": "agriculture",
+    "value": 5429809825.485
+  },
+  {
+    "year": "2009",
+    "sector": "manufacturing_construction",
+    "value": 5557410010.705
+  },
+  {
+    "year": "2009",
+    "sector": "transport",
+    "value": 6337495010.594999
+  },
+  {
+    "year": "2009",
+    "sector": "electricity_heat",
+    "value": 13211229505.085
+  },
+  {
+    "year": "2010",
+    "sector": "other_fuel",
+    "value": 632140000.135
+  },
+  {
+    "year": "2010",
+    "sector": "bunker_fuel",
+    "value": 1087180048.95
+  },
+  {
+    "year": "2010",
+    "sector": "waste",
+    "value": 1464830004.8899999
+  },
+  {
+    "year": "2010",
+    "sector": "buildings",
+    "value": 2981554994.01
+  },
+  {
+    "year": "2010",
+    "sector": "industry",
+    "value": 2224484900.475
+  },
+  {
+    "year": "2010",
+    "sector": "fugitive",
+    "value": 3073534998.145
+  },
+  {
+    "year": "2010",
+    "sector": "agriculture",
+    "value": 5489684987.995
+  },
+  {
+    "year": "2010",
+    "sector": "manufacturing_construction",
+    "value": 6100819750.18
+  },
+  {
+    "year": "2010",
+    "sector": "transport",
+    "value": 6594920024.96
+  },
+  {
+    "year": "2010",
+    "sector": "electricity_heat",
+    "value": 14111200054.97
+  },
+  {
+    "year": "2011",
+    "sector": "other_fuel",
+    "value": 617289999.96
+  },
+  {
+    "year": "2011",
+    "sector": "bunker_fuel",
+    "value": 1107049999.935
+  },
+  {
+    "year": "2011",
+    "sector": "waste",
+    "value": 1467020051.9450002
+  },
+  {
+    "year": "2011",
+    "sector": "buildings",
+    "value": 2925355010.475
+  },
+  {
+    "year": "2011",
+    "sector": "industry",
+    "value": 2376020000.08
+  },
+  {
+    "year": "2011",
+    "sector": "fugitive",
+    "value": 3169929999.965
+  },
+  {
+    "year": "2011",
+    "sector": "agriculture",
+    "value": 5622085004.725
+  },
+  {
+    "year": "2011",
+    "sector": "manufacturing_construction",
+    "value": 6331629998.24
+  },
+  {
+    "year": "2011",
+    "sector": "transport",
+    "value": 6706654949.684999
+  },
+  {
+    "year": "2011",
+    "sector": "electricity_heat",
+    "value": 14718779990.23
+  },
+  {
+    "year": "2012",
+    "sector": "other_fuel",
+    "value": 640434999.695
+  },
+  {
+    "year": "2012",
+    "sector": "bunker_fuel",
+    "value": 1063304998.89
+  },
+  {
+    "year": "2012",
+    "sector": "waste",
+    "value": 1476299997.65
+  },
+  {
+    "year": "2012",
+    "sector": "buildings",
+    "value": 2867585009.96
+  },
+  {
+    "year": "2012",
+    "sector": "industry",
+    "value": 2459010026.21
+  },
+  {
+    "year": "2012",
+    "sector": "fugitive",
+    "value": 3213805004.94
+  },
+  {
+    "year": "2012",
+    "sector": "agriculture",
+    "value": 5644549982.5
+  },
+  {
+    "year": "2012",
+    "sector": "manufacturing_construction",
+    "value": 6354124999.98
+  },
+  {
+    "year": "2012",
+    "sector": "transport",
+    "value": 6791410010.485
+  },
+  {
+    "year": "2012",
+    "sector": "electricity_heat",
+    "value": 15018469958.939999
+  },
+  {
+    "year": "2013",
+    "sector": "other_fuel",
+    "value": 648255000.3500001
+  },
+  {
+    "year": "2013",
+    "sector": "bunker_fuel",
+    "value": 1068619999.86
+  },
+  {
+    "year": "2013",
+    "sector": "waste",
+    "value": 1483755049.795
+  },
+  {
+    "year": "2013",
+    "sector": "buildings",
+    "value": 2980200010.08
+  },
+  {
+    "year": "2013",
+    "sector": "industry",
+    "value": 2572490000.925
+  },
+  {
+    "year": "2013",
+    "sector": "fugitive",
+    "value": 3231399893.715
+  },
+  {
+    "year": "2013",
+    "sector": "agriculture",
+    "value": 5583929997
+  },
+  {
+    "year": "2013",
+    "sector": "manufacturing_construction",
+    "value": 6380404992.085
+  },
+  {
+    "year": "2013",
+    "sector": "transport",
+    "value": 6981930006.85
+  },
+  {
+    "year": "2013",
+    "sector": "electricity_heat",
+    "value": 15292260174.83
+  },
+  {
+    "year": "2014",
+    "sector": "other_fuel",
+    "value": 643305015.35
+  },
+  {
+    "year": "2014",
+    "sector": "bunker_fuel",
+    "value": 1107024996
+  },
+  {
+    "year": "2014",
+    "sector": "waste",
+    "value": 1513959999.98
+  },
+  {
+    "year": "2014",
+    "sector": "buildings",
+    "value": 2926515006.975
+  },
+  {
+    "year": "2014",
+    "sector": "industry",
+    "value": 2695785055.065
+  },
+  {
+    "year": "2014",
+    "sector": "fugitive",
+    "value": 3265724999.9700003
+  },
+  {
+    "year": "2014",
+    "sector": "agriculture",
+    "value": 5634769996.5
+  },
+  {
+    "year": "2014",
+    "sector": "manufacturing_construction",
+    "value": 6448515051.995
+  },
+  {
+    "year": "2014",
+    "sector": "transport",
+    "value": 7090605002.6449995
+  },
+  {
+    "year": "2014",
+    "sector": "electricity_heat",
+    "value": 15230905001
+  },
+  {
+    "year": "2015",
+    "sector": "other_fuel",
+    "value": 642560001.49
+  },
+  {
+    "year": "2015",
+    "sector": "bunker_fuel",
+    "value": 1160220049.7350001
+  },
+  {
+    "year": "2015",
+    "sector": "waste",
+    "value": 1543300000.495
+  },
+  {
+    "year": "2015",
+    "sector": "buildings",
+    "value": 2949720000.04
+  },
+  {
+    "year": "2015",
+    "sector": "industry",
+    "value": 2689334999.9700003
+  },
+  {
+    "year": "2015",
+    "sector": "fugitive",
+    "value": 3259569985.08
+  },
+  {
+    "year": "2015",
+    "sector": "agriculture",
+    "value": 5658659828.935
+  },
+  {
+    "year": "2015",
+    "sector": "manufacturing_construction",
+    "value": 6309455197.925
+  },
+  {
+    "year": "2015",
+    "sector": "transport",
+    "value": 7302205000.459999
+  },
+  {
+    "year": "2015",
+    "sector": "electricity_heat",
+    "value": 14969864406.189999
+  },
+  {
+    "year": "2016",
+    "sector": "other_fuel",
+    "value": 636049999.69
+  },
+  {
+    "year": "2016",
+    "sector": "bunker_fuel",
+    "value": 1198305050.02
+  },
+  {
+    "year": "2016",
+    "sector": "waste",
+    "value": 1560579950.1
+  },
+  {
+    "year": "2016",
+    "sector": "buildings",
+    "value": 2988204996.985
+  },
+  {
+    "year": "2016",
+    "sector": "industry",
+    "value": 2786649999.93
+  },
+  {
+    "year": "2016",
+    "sector": "fugitive",
+    "value": 3226610000.14
+  },
+  {
+    "year": "2016",
+    "sector": "agriculture",
+    "value": 5694690023.335
+  },
+  {
+    "year": "2016",
+    "sector": "manufacturing_construction",
+    "value": 6152499964.469999
+  },
+  {
+    "year": "2016",
+    "sector": "transport",
+    "value": 7432699845.925
+  },
+  {
+    "year": "2016",
+    "sector": "electricity_heat",
+    "value": 14977254868.49
+  },
+  {
+    "year": "2017",
+    "sector": "other_fuel",
+    "value": 638334999.75
+  },
+  {
+    "year": "2017",
+    "sector": "bunker_fuel",
+    "value": 1256260000.04
+  },
+  {
+    "year": "2017",
+    "sector": "waste",
+    "value": 1583545000.21
+  },
+  {
+    "year": "2017",
+    "sector": "buildings",
+    "value": 3054854989.945
+  },
+  {
+    "year": "2017",
+    "sector": "industry",
+    "value": 2855074999.3050003
+  },
+  {
+    "year": "2017",
+    "sector": "fugitive",
+    "value": 3249350010.73
+  },
+  {
+    "year": "2017",
+    "sector": "agriculture",
+    "value": 5784910023.585
+  },
+  {
+    "year": "2017",
+    "sector": "manufacturing_construction",
+    "value": 6089385159.445
+  },
+  {
+    "year": "2017",
+    "sector": "transport",
+    "value": 7605039999.38
+  },
+  {
+    "year": "2017",
+    "sector": "electricity_heat",
+    "value": 15312989989.904999
+  },
+  {
+    "year": "2018",
+    "sector": "other_fuel",
+    "value": 623065014.98
+  },
+  {
+    "year": "2018",
+    "sector": "bunker_fuel",
+    "value": 1284675000.44
+  },
+  {
+    "year": "2018",
+    "sector": "waste",
+    "value": 1606580004.54
+  },
+  {
+    "year": "2018",
+    "sector": "buildings",
+    "value": 3088309999.695
+  },
+  {
+    "year": "2018",
+    "sector": "industry",
+    "value": 2964074999.94
+  },
+  {
+    "year": "2018",
+    "sector": "fugitive",
+    "value": 3344994998.99
+  },
+  {
+    "year": "2018",
+    "sector": "agriculture",
+    "value": 5784974993.485
+  },
+  {
+    "year": "2018",
+    "sector": "manufacturing_construction",
+    "value": 6229980009.84
+  },
+  {
+    "year": "2018",
+    "sector": "transport",
+    "value": 7790510135.54
+  },
+  {
+    "year": "2018",
+    "sector": "electricity_heat",
+    "value": 15764059360.22
+  },
+  {
+    "year": "2019",
+    "sector": "other_fuel",
+    "value": 595859999.2149999
+  },
+  {
+    "year": "2019",
+    "sector": "bunker_fuel",
+    "value": 1281050000.0900002
+  },
+  {
+    "year": "2019",
+    "sector": "waste",
+    "value": 1629565000.0300002
+  },
+  {
+    "year": "2019",
+    "sector": "buildings",
+    "value": 3028009897.465
+  },
+  {
+    "year": "2019",
+    "sector": "industry",
+    "value": 3061005000.0899997
+  },
+  {
+    "year": "2019",
+    "sector": "fugitive",
+    "value": 3396550000.25
+  },
+  {
+    "year": "2019",
+    "sector": "agriculture",
+    "value": 5779754992.5
+  },
+  {
+    "year": "2019",
+    "sector": "manufacturing_construction",
+    "value": 6234044986.690001
+  },
+  {
+    "year": "2019",
+    "sector": "transport",
+    "value": 7792929767.115
+  },
+  {
+    "year": "2019",
+    "sector": "electricity_heat",
+    "value": 15708080219.34
+  },
+  {
+    "year": "2020",
+    "sector": "other_fuel",
+    "value": 578139999.48
+  },
+  {
+    "year": "2020",
+    "sector": "bunker_fuel",
+    "value": 906544997.915
+  },
+  {
+    "year": "2020",
+    "sector": "waste",
+    "value": 1652539999.375
+  },
+  {
+    "year": "2020",
+    "sector": "buildings",
+    "value": 2967345019.73
+  },
+  {
+    "year": "2020",
+    "sector": "industry",
+    "value": 3123619950.44
+  },
+  {
+    "year": "2020",
+    "sector": "fugitive",
+    "value": 3203845000.035
+  },
+  {
+    "year": "2020",
+    "sector": "agriculture",
+    "value": 5861985255.8949995
+  },
+  {
+    "year": "2020",
+    "sector": "manufacturing_construction",
+    "value": 6205190009.99
+  },
+  {
+    "year": "2020",
+    "sector": "transport",
+    "value": 6793819854.47
+  },
+  {
+    "year": "2020",
+    "sector": "electricity_heat",
+    "value": 15074190008.835
+  }
+]

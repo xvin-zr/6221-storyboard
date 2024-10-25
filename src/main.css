@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  @apply bg-zinc-50;
+  min-height: 100vh;
+}
+
+main {
+  @apply max-w-7xl p-4;
+  margin: 0 auto;
+}
