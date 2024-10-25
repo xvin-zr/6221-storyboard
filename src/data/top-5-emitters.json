@@ -1,0 +1,272 @@
+{
+  "other_fuel": [
+    {
+      "country": "China",
+      "iso_code": "CHN",
+      "value": 163790000
+    },
+    {
+      "country": "India",
+      "iso_code": "IND",
+      "value": 64830000
+    },
+    {
+      "country": "United States",
+      "iso_code": "USA",
+      "value": 36940000
+    },
+    {
+      "country": "Brazil",
+      "iso_code": "BRA",
+      "value": 20720000
+    },
+    {
+      "country": "Canada",
+      "iso_code": "CAN",
+      "value": 16760000
+    }
+  ],
+  "bunker_fuel": [
+    {
+      "country": "Singapore",
+      "iso_code": "SGP",
+      "value": 163350000
+    },
+    {
+      "country": "United States",
+      "iso_code": "USA",
+      "value": 97070000
+    },
+    {
+      "country": "United Arab Emirates",
+      "iso_code": "ARE",
+      "value": 66059996
+    },
+    {
+      "country": "China",
+      "iso_code": "CHN",
+      "value": 54420000
+    },
+    {
+      "country": "Netherlands",
+      "iso_code": "NLD",
+      "value": 43510000
+    }
+  ],
+  "waste": [
+    {
+      "country": "China",
+      "iso_code": "CHN",
+      "value": 209500000
+    },
+    {
+      "country": "Indonesia",
+      "iso_code": "IDN",
+      "value": 138210000
+    },
+    {
+      "country": "United States",
+      "iso_code": "USA",
+      "value": 135450000
+    },
+    {
+      "country": "Russia",
+      "iso_code": "RUS",
+      "value": 118680000
+    },
+    {
+      "country": "India",
+      "iso_code": "IND",
+      "value": 85350000
+    }
+  ],
+  "buildings": [
+    {
+      "country": "United States",
+      "iso_code": "USA",
+      "value": 517210020
+    },
+    {
+      "country": "China",
+      "iso_code": "CHN",
+      "value": 492890020
+    },
+    {
+      "country": "Russia",
+      "iso_code": "RUS",
+      "value": 212210000
+    },
+    {
+      "country": "India",
+      "iso_code": "IND",
+      "value": 162490000
+    },
+    {
+      "country": "Germany",
+      "iso_code": "DEU",
+      "value": 127280000
+    }
+  ],
+  "industry": [
+    {
+      "country": "China",
+      "iso_code": "CHN",
+      "value": 1260689900
+    },
+    {
+      "country": "United States",
+      "iso_code": "USA",
+      "value": 243520000
+    },
+    {
+      "country": "India",
+      "iso_code": "IND",
+      "value": 149370000
+    },
+    {
+      "country": "Saudi Arabia",
+      "iso_code": "SAU",
+      "value": 114020000
+    },
+    {
+      "country": "Thailand",
+      "iso_code": "THA",
+      "value": 93560000
+    }
+  ],
+  "fugitive": [
+    {
+      "country": "China",
+      "iso_code": "CHN",
+      "value": 628070000
+    },
+    {
+      "country": "Russia",
+      "iso_code": "RUS",
+      "value": 492000000
+    },
+    {
+      "country": "United States",
+      "iso_code": "USA",
+      "value": 419500000
+    },
+    {
+      "country": "Iran",
+      "iso_code": "IRN",
+      "value": 147900000
+    },
+    {
+      "country": "Turkmenistan",
+      "iso_code": "TKM",
+      "value": 119490000
+    }
+  ],
+  "agriculture": [
+    {
+      "country": "India",
+      "iso_code": "IND",
+      "value": 741920000
+    },
+    {
+      "country": "China",
+      "iso_code": "CHN",
+      "value": 653970000
+    },
+    {
+      "country": "Brazil",
+      "iso_code": "BRA",
+      "value": 518860000
+    },
+    {
+      "country": "United States",
+      "iso_code": "USA",
+      "value": 382010020
+    },
+    {
+      "country": "Pakistan",
+      "iso_code": "PAK",
+      "value": 201760000
+    }
+  ],
+  "manufacturing_construction": [
+    {
+      "country": "China",
+      "iso_code": "CHN",
+      "value": 2899050000
+    },
+    {
+      "country": "India",
+      "iso_code": "IND",
+      "value": 509450020
+    },
+    {
+      "country": "United States",
+      "iso_code": "USA",
+      "value": 441120000
+    },
+    {
+      "country": "Russia",
+      "iso_code": "RUS",
+      "value": 274640000
+    },
+    {
+      "country": "Japan",
+      "iso_code": "JPN",
+      "value": 171330000
+    }
+  ],
+  "transport": [
+    {
+      "country": "United States",
+      "iso_code": "USA",
+      "value": 1558320000
+    },
+    {
+      "country": "China",
+      "iso_code": "CHN",
+      "value": 920940000
+    },
+    {
+      "country": "India",
+      "iso_code": "IND",
+      "value": 276440000
+    },
+    {
+      "country": "Russia",
+      "iso_code": "RUS",
+      "value": 239970000
+    },
+    {
+      "country": "Brazil",
+      "iso_code": "BRA",
+      "value": 189580000
+    }
+  ],
+  "electricity_heat": [
+    {
+      "country": "China",
+      "iso_code": "CHN",
+      "value": 5713980000
+    },
+    {
+      "country": "United States",
+      "iso_code": "USA",
+      "value": 1771120000
+    },
+    {
+      "country": "India",
+      "iso_code": "IND",
+      "value": 1121980000
+    },
+    {
+      "country": "Russia",
+      "iso_code": "RUS",
+      "value": 822410000
+    },
+    {
+      "country": "Japan",
+      "iso_code": "JPN",
+      "value": 516560000
+    }
+  ]
+}

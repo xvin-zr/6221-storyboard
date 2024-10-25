@@ -1,4 +1,5 @@
 import * as d3 from 'd3';
+import { renderBubbleChart } from './bubble-chart';
 
 const legendMap = {
     other_fuel: 'Other',
@@ -13,7 +14,7 @@ const legendMap = {
     electricity_heat: 'Electricity',
 } satisfies Record<string, string>;
 
-type LegendKey = keyof typeof legendMap;
+export type LegendKey = keyof typeof legendMap;
 
 export function createLegend(sectors: string[], color: (s: string) => string) {
     const legend = document.querySelector('.emissions-by-sector__legend')!;
@@ -27,14 +28,13 @@ export function createLegend(sectors: string[], color: (s: string) => string) {
         .join('')}`;
 }
 
-const legendProxy = new Proxy<{ selected: LegendKey | null }>(
+export const legendProxy = new Proxy<{ selected: LegendKey | null }>(
     { selected: null },
     {
         set(target, prop: 'selected', value) {
             target[prop] = value;
 
             const area = d3.select('.emissions-by-sector').selectAll('.area');
-            console.log({ area });
 
             if (value === null) {
                 area.transition().duration(200).attr('opacity', 0.7);
@@ -43,6 +43,7 @@ const legendProxy = new Proxy<{ selected: LegendKey | null }>(
                     .duration(150)
                     .attr('opacity', (d: any) => (d.key === value ? 0.7 : 0.3));
             }
+            renderBubbleChart(value);
 
             return true;
         },

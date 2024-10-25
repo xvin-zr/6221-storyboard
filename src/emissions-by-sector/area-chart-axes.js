@@ -36,9 +36,9 @@ const dimension = {
     width: spacing('72', 2),
     height: spacing('56', 2),
     mt: 20,
-    mr: 20,
+    mr: 15,
     mb: 20,
-    ml: 25,
+    ml: 45,
 };
 
 const svg = d3
@@ -65,7 +65,12 @@ svg.append('g')
 // y axis
 svg.append('g')
     .attr('transform', `translate(${dimension.ml}, 0)`)
-    .call(d3.axisLeft(yScale).ticks(5))
+    .call(
+        d3
+            .axisLeft(yScale)
+            .ticks(5)
+            .tickFormat((d) => `${d} bn t`)
+    )
     .call((g) => g.select('.domain').remove())
     .call((g) =>
         g

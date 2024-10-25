@@ -9,3 +9,13 @@ type Dimension = {
     width: number;
     height: number;
 } & Margin;
+
+type CountryData = {
+    country: string;
+    iso_code: string;
+    value: number;
+};
+
+type HierarchyData = {
+    children: CountryEmission[];
+}
