@@ -17,30 +17,31 @@
         <section class="grid grid-cols-[6fr_4fr]">
           <figure>
             <h2 class="font-bold text-lg mb-2">
-              CO<sub>2</sub> emissions by sector
+              CO<sub>2</sub> Emissions by Sector
             </h2>
             <ul class="emissions-by-sector__legend grid grid-cols-5"></ul>
             <svg class="emissions-by-sector"></svg>
           </figure>
 
-          <figure>
-            <h2 class="font-bold text-lg">Top emission countries</h2>
-            <p class="text-gray-500 mb-8 text-sm">
-              Select a sector from the legend to view top emission countries
-            </p>
+          <figure class="space-y-8">
+            <figcaption>
+              <h2 class="font-bold text-lg">
+                Top 5 Emission Countries <span class="text-sm">(2020)</span>
+              </h2>
+              <p class="text-gray-500 text-sm">
+                Select a sector from the legend to view the top countries.
+              </p>
+            </figcaption>
             <svg class="top-emission-countries"></svg>
           </figure>
         </section>
       </main>
       <section class="navigation"></section>
     </div>
+    <script type="module" src="/src/emissions-by-sector/area-chart.js"></script>
     <script
       type="module"
-      src="/src/emissions-by-sector/area-chart.js"
-    ></script>
-    <script
-      type="module"
-      src="/src/emissions-by-sector//bubble-chart.ts"
+      src="/src/emissions-by-sector/bubble-chart.ts"
     ></script>
   </body>
 </html>
