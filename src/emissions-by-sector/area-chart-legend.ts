@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 import { renderBubbleChart } from './bubble-chart';
 
-const legendMap = {
+export const legendMap = {
     other_fuel: 'Other',
     bunker_fuel: 'Aviation',
     waste: 'Waste',
@@ -26,12 +26,23 @@ export function createLegend(sectors: string[], color: (s: string) => string) {
                 )}]'></span>${legendMap[sector as LegendKey]}</li>`
         )
         .join('')}`;
+
+    document
+        .querySelector('.emissions-by-sector')
+        ?.addEventListener('click', (e) => {
+            e.preventDefault();
+            legendProxy.selected = null;
+        });
 }
 
 export const legendProxy = new Proxy<{ selected: LegendKey | null }>(
     { selected: null },
     {
-        set(target, prop: 'selected', value) {
+        set(target, prop, value) {
+            if (prop !== 'selected') {
+                return false;
+            }
+
             target[prop] = value;
 
             const area = d3.select('.emissions-by-sector').selectAll('.area');
