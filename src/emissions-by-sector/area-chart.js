@@ -72,7 +72,8 @@ const tooltip = d3
     .style('border-radius', '4px')
     .style('box-shadow', '0 2px 4px rgba(0,0,0,0.1)')
     .style('pointer-events', 'none')
-    .style('z-index', '1000');
+    .style('z-index', '1000')
+    .style('display', 'none');
 
 // area for events capturing
 const chartArea = svg
@@ -201,7 +202,9 @@ function mousemove(event) {
                     )}] mr-1.5 rounded-full'></div>
                     <div style="min-width: 100px;">${legendMap[sector]}</div>
                 </div>
-                <div class='ml-3 font-medium'>${value.toFixed(2)} bn t</div>
+                <div class='ml-3 font-medium'>${value.toFixed(
+                    2
+                )} billion t</div>
             </div>
         `;
     });
@@ -209,6 +212,7 @@ function mousemove(event) {
     // update tooltip position and content
     tooltip
         .style('visibility', 'visible')
+        .style('display', 'inline-block')
         .style('left', `${event.pageX + 15}px`)
         .style('top', `${event.pageY - 10}px`)
         .html(tooltipContent);
