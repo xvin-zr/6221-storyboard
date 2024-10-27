@@ -8,7 +8,14 @@ export default defineConfig({
             external: ['d3'],
             input: {
                 main: resolve(__dirname, 'index.html'),
-                storyboard: resolve(__dirname, 'storyboard/index.html'),
+                'emissions-by-sector': resolve(
+                    __dirname,
+                    'storyboard/emissions-by-sector.html'
+                ),
+                'temperature-trend': resolve(
+                    __dirname,
+                    'storyboard/temperature-trend.html'
+                ),
             },
             output: {
                 paths: {
