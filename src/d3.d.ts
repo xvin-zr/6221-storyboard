@@ -17,5 +17,5 @@ type CountryData = {
 };
 
 type HierarchyData = {
-    children: CountryEmission[];
-}
+    children: CountryData[];
+};

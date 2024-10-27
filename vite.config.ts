@@ -1,5 +1,6 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
+import fs from 'fs';
 
 export default defineConfig({
     build: {
@@ -8,14 +9,7 @@ export default defineConfig({
             external: ['d3'],
             input: {
                 main: resolve(__dirname, 'index.html'),
-                'emissions-by-sector': resolve(
-                    __dirname,
-                    'storyboard/emissions-by-sector.html'
-                ),
-                'temperature-trend': resolve(
-                    __dirname,
-                    'storyboard/temperature-trend.html'
-                ),
+                ...getEntryPoints('storyboard'),
             },
             output: {
                 paths: {
@@ -25,3 +19,17 @@ export default defineConfig({
         },
     },
 });
+
+function getEntryPoints(directory: string) {
+    const files = fs.readdirSync(resolve(__dirname, directory));
+    const entryPoints: Record<string, string> = {};
+
+    files.forEach((file) => {
+        if (file.endsWith('.html')) {
+            const name = file.replace('.html', '');
+            entryPoints[name] = resolve(directory, file);
+        }
+    });
+
+    return entryPoints;
+}
