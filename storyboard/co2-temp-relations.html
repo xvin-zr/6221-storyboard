@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/main.css" />
+    <script type="module" src="/src/co2-temp-relations/main.js"></script>
+    <link rel="stylesheet" href="/src/co2-temp-relations/style.css" />
+    <title>Storyboard</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="text-center w-full py-2 border-b bg-zinc-50">
+        <h1 class="font-bold text-xl">Lorem ipsum dolor sit amet</h1>
+      </header>
+      <main class="space-y-4">
+        <h2 class="font-bold text-lg">
+          CO<sub>2</sub> Emissions & Global Temperature Change
+        </h2>
+        <div id="chart-container" class="grid gap-1">
+          <figure class="overflow-y-auto border rounded">
+            <svg width="900" height="700"></svg>
+          </figure>
+          <article id="text-container" class="space-y-2">
+            <h3 class="intro-title font-bold text-zinc-900">Introduction</h3>
+            <p>
+              This chart shows the relationship between global carbon dioxide
+              emissions and temperature changes since the year 1880. The CO<sub
+                >2</sub
+              >
+              emission represents cumulative emissions of carbon dioxide from
+              fossil fuel and industry in the certain region. The temperature
+              change represents the change in global mean surface temperature
+              caused by greenhouse effect. The data is illustrated with a
+              biaxial scatter plot.
+            </p>
+            <p>
+              From the graph, we can see that carbon dioxide emissions have
+              shown a significant upward trend over the past 140 years. At the
+              beginning of the Industrial Revolution, emissions were very low.
+              Growth in emissions was still relatively slow until the mid-20th
+              century. In the second half of the 20th century, with the rapid
+              development of the global economy, industry and transportation
+              scale, carbon dioxide emissions increased sharply.
+            </p>
+            <p>
+              It can also be seen that global temperatures have shown a clear
+              upward trend over the past century. Especially in the early 21st
+              century, the rate of temperature rise seems to be accelerating,
+              further raising concerns about climate change.This trend is
+              closely related to the rise in global CO<sub>2</sub> emissions,
+              reflecting the impact of CO<sub>2</sub> on climate change.
+            </p>
+            <p>
+              Generally, the chart shows the impact of human activities on
+              climate change since the Industrial Revolution, particularly the
+              use of fossil fuels and the increase in greenhouse gas emissions
+              caused by modern industrialization processes.
+            </p>
+            <p>
+              Carbon dioxide emissions are the primary driver of global climate
+              change. It's widely recognized that to avoid the worst impacts of
+              climate change, the world needs to urgently reduce emissions. In
+              future, the world must reach an agreement about how this
+              responsibility is shared between regions, countries, and
+              individuals, and take solid actions ASAP.
+            </p>
+          </article>
+        </div>
+        <div id="foot-container">
+          <div id="button-container">
+            <span class="select-title">Select Different Region:</span>
+          </div>
+          <div class="info-box">
+            <p class="hover-notice">Hover on spot to view detail data.</p>
+            <p class="sources">
+              <span>Data source: Jones et al. (2024) – </span>
+              <span
+                ><a
+                  href="https://ourworldindata.org/co2-and-greenhouse-gas-emissions#explore-data-on-co2-and-greenhouse-gas-emissions"
+                  >with major processing by Our World in Data</a
+                ></span
+              >
+            </p>
+          </div>
+        </div>
+      </main>
+      <section
+        class="navigation flex justify-between items-center pt-2 pb-6 px-12"
+      >
+        <a href="./temperature-trend.html" class="px-2 py-1"
+          >&larr; Temperature Trends</a
+        >
+        <a href="" class="px-2 py-1">&rarr;</a>
+      </section>
+    </div>
+  </body>
+</html>
