@@ -1,0 +1,118 @@
+#controls > button {
+  @apply bg-green-700 hover:bg-green-600 w-fit h-fit rounded-full px-3 py-1 text-zinc-50 shadow-sm;
+}
+
+#controls {
+  @apply mb-4;
+}
+
+footer {
+  @apply text-zinc-700;
+  li {
+    @apply px-1.5;
+  }
+  li a {
+    @apply text-zinc-500 hover:underline;
+  }
+}
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+} */
+
+/* #slider-container {
+    margin: 20px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+/* 
+#year-slider {
+    width: 500px;
+    margin: 10px;
+} */
+
+/* #chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+} */
+
+/* #controls {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+/* #analysis-container {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: auto;
+} */
+
+/* button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} */
+
+/* button:hover {
+    background-color: #45a049;
+} */
+
+/* button:focus {
+    outline: none;
+} */
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 8px;
+  font: 12px sans-serif;
+  background: rgba(0, 0, 0, 0.7);
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  color: black;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+/* svg {
+    margin-bottom: 20px;
+} */
+
+.legend {
+  margin-top: 10px;
+}
+
+.bar-chart {
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 12px;
+  fill: black;
+}
