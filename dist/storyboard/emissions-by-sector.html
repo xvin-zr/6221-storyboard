@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="../vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CO&#x2082; Emissions by Sector</title>
+    <script type="module" crossorigin src="../assets/emissions-by-sector-95CAIVGV.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/modulepreload-polyfill-DaKOjhqt.js">
+    <link rel="stylesheet" crossorigin href="../assets/main-Tuedbg6i.css">
+  </head>
+  <body>
+    <div id="app">
+      <header
+        class="text-center w-full py-2 border-b backdrop-blur-sm bg-zinc-50"
+      >
+        <h1 class="font-bold text-xl">
+          Global Warming and CO<sub>2</sub> Emissions: A Data-Driven Story
+        </h1>
+      </header>
+      <main class="space-y-6 grid justify-items-center">
+        <section class="grid grid-cols-[6fr_4fr]">
+          <figure class="grid">
+            <h2 class="font-bold text-lg mb-2">
+              CO<sub>2</sub> Emissions by Sector
+            </h2>
+            <ul class="emissions-by-sector__legend grid grid-cols-5"></ul>
+            <svg class="emissions-by-sector place-self-center"></svg>
+          </figure>
+
+          <figure class="space-y-8">
+            <figcaption>
+              <h2 class="font-bold text-lg">
+                Top 5 Emission Countries <span class="text-sm">(2020)</span>
+              </h2>
+              <p class="text-gray-500 text-sm">
+                Select a sector from the legend to view the top countries.
+              </p>
+            </figcaption>
+            <svg class="top-emission-countries"></svg>
+          </figure>
+        </section>
+
+        <article class="w-[65%] grid place-content-center space-y-2 text-base">
+          <p>
+            Global CO<sub>2</sub> emissions have risen consistently since 1990.
+            Electricity and heat production show the steepest increase among all
+            sectors, followed by transportation and industrial emissions.
+            Agriculture and waste management sectors display more modest but
+            steady growth in emissions.
+          </p>
+          <p>
+            China, India, and the United States are the top three global
+            emitters, together producing nearly half of global CO<sub>2</sub>
+            emissions. China leads in industrial and electricity emissions,
+            India in agricultural emissions, and the United States in
+            transportation and building-related emissions. Singapore shows
+            exceptionally high aviation emissions, ranking among the
+            world&rsquo;s top aviation emission sources.
+          </p>
+        </article>
+      </main>
+      <footer class="w-[65%] mx-auto flex justify-end text-xs text-zinc-500">
+        Data:&nbsp;
+        <a
+          href="https://github.com/owid/co2-data?tab=readme-ov-file"
+          class="hover:underline"
+          target="_blank"
+          >Hannah Ritchie, Pablo Rosado and Max Roser (2023) - “CO₂ and
+          Greenhouse Gas Emissions”</a
+        >
+      </footer>
+
+      <section
+        class="navigation flex justify-between items-center pt-4 pb-6 px-12"
+      >
+        <a href="./global-emissions.html" class="px-2 py-1"
+          >&larr; Global CO<sub>2</sub> Emissions</a
+        >
+        <a href="./conclusion.html" class="px-2 py-1">Conclusion &rarr;</a>
+      </section>
+    </div>
+  </body>
+</html>

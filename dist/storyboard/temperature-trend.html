@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="../vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Temperature Trends</title>
+    <script type="module" crossorigin src="../assets/temperature-trend-B5ibyq3m.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/modulepreload-polyfill-DaKOjhqt.js">
+    <link rel="stylesheet" crossorigin href="../assets/temperature-trend-Du03-2pv.css">
+    <link rel="stylesheet" crossorigin href="../assets/main-Tuedbg6i.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="text-center w-full py-2 border-b backdrop-blur-sm">
+        <h1 class="font-bold text-xl">
+          Global Warming and CO<sub>2</sub> Emissions: A Data-Driven Story
+        </h1>
+      </header>
+      <main>
+        <div class="container space-y-6 mx-auto">
+          <div id="left-column" class="flex flex-col items-center gap-1">
+            <div class="range-container">
+              <input
+                type="number"
+                id="startYear"
+                min="1850"
+                max="2024"
+                value="1850"
+                class="w-20"
+              />
+              <div class="slider" id="yearSlider">
+                <div class="slider-track"></div>
+                <div class="slider-range"></div>
+                <div class="slider-thumb" id="startThumb"></div>
+                <div class="slider-thumb" id="endThumb"></div>
+              </div>
+              <input
+                type="number"
+                id="endYear"
+                min="1850"
+                max="2024"
+                value="2024"
+                class="w-20"
+              />
+            </div>
+            <div
+              id="chart-footer"
+              style="text-align: center; font-style: italic"
+            >
+              Data source: Met Office Hadley Centre (2024)
+              <a
+                href="https://www.metoffice.gov.uk/hadobs/hadcrut5/data/HadCRUT.5.0.2.0/download.html"
+                style="
+                  color: #666;
+                  text-decoration: underline;
+                  margin-left: 5px;
+                "
+                >Learn more about this data</a
+              >
+            </div>
+          </div>
+
+          <div id="right-column" class="space-y-2 w-[65%] mx-auto">
+            <h2 class="text-lg font-bold">
+              Trend of global temperature anomalies
+            </h2>
+            <p>
+              This chart shows the global average land-ocean temperature
+              anomalies from 1850 to 2024, with a base period of 1961-1990
+              average temperatures.The gray lines represent the upper and lower
+              bounds of the 95% confidence interval.
+            </p>
+            <p>
+              As can be seen from the graph, the temperature fluctuated around
+              -0.5°C between 1850 and 1920, and was generally stable. 1920 to
+              1940 saw the first significant warming, followed by a significant
+              increase in temperature anomalies after 1980, indicating an
+              increasingly pronounced trend of global warming, and the warming
+              trend accelerated further after 2000, with temperature anomalies
+              approaching 1.2°C in 2024, the highest level in history.
+            </p>
+            <p>
+              Compared with the initial temperature of 1850, which was around
+              0.4°C cooler than the baseline, the global temperature anomaly has
+              increased by about 1.2°C cumulatively so far, reflecting a
+              significant warming trend, especially in recent decades.
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <section class="navigation flex justify-between pt-2 pb-6 px-12">
+        <a href="../" class="px-2 py-1">&larr; Introduction</a>
+        <a href="./co2-temp-relations.html" class="px-2 py-1"
+          >CO<sub>2</sub> Temperature Relations &rarr;</a
+        >
+      </section>
+    </div>
+  </body>
+</html>
