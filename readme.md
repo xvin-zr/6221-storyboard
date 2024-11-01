@@ -1,29 +1,11 @@
-## Setup
+## Preview
 
-首先确保已安装 Node.js。
+Use `Live Server` or others servers to open `index.html` in `dist` directory to view the storyboard. (Make sure to open `dist` directory directly as the root directory to avoid path issues)
 
-运行以下命令查看 Node.js 和 npm 的版本：
+## Source Code
 
-```bash
-node --version
-npm --version
-```
+The bundled code in `dist` may be difficult to read, but all human-readable source files are organized as follows:
 
-安装依赖项：
-
-```bash
-npm install -g pnpm
-pnpm install
-# or
-npm install
-```
-
-运行应用：
-
-```bash
-pnpm dev
-# or
-npm run dev
-```
-
-打开浏览器并访问 `http://localhost:5173/`
+- Source code: `src`
+- Datasets: `src/data`
+- HTML pages: `storyboard`
