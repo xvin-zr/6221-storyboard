@@ -84,15 +84,15 @@ function drawChart(processedData2) {
   yAxisTicks.forEach((value) => {
     svg.append("line").attr("x1", 0).attr("y1", y(value)).attr("x2", width).attr("y2", y(value)).attr("stroke", "lightgrey").attr("stroke-dasharray", "5,5").attr("stroke-width", 1);
   });
-  svg.append("path").datum(processedData2).attr("fill", "none").attr("stroke", "red").attr("stroke-width", 1.5).attr(
+  svg.append("path").datum(processedData2).attr("fill", "none").attr("stroke", "rgb(139,0,0)").attr("stroke-width", 1.5).attr(
     "d",
     d3.line().x((d) => x(d.date)).y((d) => y(d.mean))
   );
-  svg.append("path").datum(processedData2).attr("fill", "none").attr("stroke", "grey").attr("stroke-width", 1.5).attr(
+  svg.append("path").datum(processedData2).attr("fill", "none").attr("stroke", "rgba(188,143,143,0.8)").attr("stroke-width", 1.5).attr(
     "d",
     d3.line().x((d) => x(d.date)).y((d) => y(d.upper))
   );
-  svg.append("path").datum(processedData2).attr("fill", "none").attr("stroke", "grey").attr("stroke-width", 1.5).attr(
+  svg.append("path").datum(processedData2).attr("fill", "none").attr("stroke", "rgba(188,143,143,0.8)").attr("stroke-width", 1.5).attr(
     "d",
     d3.line().x((d) => x(d.date)).y((d) => y(d.lower))
   );
@@ -100,7 +100,7 @@ function drawChart(processedData2) {
   svg.append("g").attr("transform", "translate(0," + height + ")").call(d3.axisBottom(x).tickFormat(formatTime));
   svg.selectAll(".tick text").style("text-anchor", "end").attr("transform", "rotate(-45)").attr("dx", "-.8em").attr("dy", ".15em").style("font-size", "14px");
   svg.append("text").attr("transform", "rotate(-90)").attr("x", -height / 2).attr("y", -margin.left + 20).text("Temperature").style("text-anchor", "middle").style("font-size", "14px");
-  svg.append("text").attr("x", width / 2).attr("y", -margin.top / 2).attr("text-anchor", "middle").style("font-size", "20px").style("font-weight", "bold").style("fill", "grey").text("Average temperature anomaly, Global");
+  svg.append("text").attr("x", width / 2).attr("y", -margin.top / 2).attr("text-anchor", "middle").style("font-size", "20px").style("font-weight", "bold").style("fill", "grey").text("Global Temperature Deviation from Baseline");
   let focus = svg.append("g").attr("class", "focus").style("display", "none");
   focus.append("line").attr("class", "vertical-line").style("stroke", "grey").style("stroke-dasharray", "3,3").style("opacity", 0.5).attr("y1", 0).attr("y2", height);
   focus.append("g").attr("class", "labels").selectAll(null).data(["Mean", "Lower", "Upper"]).enter().append("text").attr("class", (d, i) => `label-${i}`).style("fill", "black").style("font-weight", "normal").attr("dx", 8).attr("dy", (d, i) => `${i * 1.2}em`);
