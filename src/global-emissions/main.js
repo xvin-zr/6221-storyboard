@@ -1,5 +1,4 @@
 import * as d3 from 'd3';
-
 Promise.all([
     d3.json('/annual-co2-emissions-per-country.json'),
     d3.json('/co-emissions-per-capita.json'),
@@ -143,9 +142,7 @@ Promise.all([
                 currentDataset = d;
                 processDataset();
                 updateData();
-                const year = +slider.property('value');
-                updateMap(year);
-                updateBarChart(year);
+                animateThroughYears();
                 updateLegend();
             });
 
@@ -266,18 +263,14 @@ Promise.all([
         updateLegend();
 
         // barchart
-        const margin = { top: 20, right: 30, bottom: 50, left: 70 };
-        const barChartWidth = 960 - margin.left - margin.right;
-        const barChartHeight = 300 - margin.top - margin.bottom;
-
+        const barChartWidth = 960;
+        const barChartHeight = 300;
         const barChartSvg = d3
             .select('#chart')
             .append('svg')
-            .attr('width', barChartWidth + margin.left + margin.right)
-            .attr('height', barChartHeight + margin.top + margin.bottom)
-            .attr('class', 'bar-chart')
-            .append('g')
-            .attr('transform', `translate(${margin.left},${margin.top})`);
+            .attr('width', barChartWidth)
+            .attr('height', barChartHeight)
+            .attr('class', 'bar-chart');
 
         const focusCountries = [
             'United States',
@@ -344,7 +337,29 @@ Promise.all([
         }
 
         updateBarChart(2022);
+        let timer = undefined;
+
+        function animateThroughYears() {
+            const minYear = +slider.attr('min');
+            const maxYear = +slider.attr('max');
+            let currentYear = minYear;
+
+            clearTimeout(timer);
+            function step() {
+                updateMap(currentYear);
+                updateBarChart(currentYear);
+                d3.select('#year-label').text(currentYear);
+                slider.property('value', currentYear);
+
+                if (currentYear < maxYear) {
+                    currentYear++;
+                    timer = setTimeout(step, 100); // Adjust the speed of animation by changing the timeout value
+                }
+            }
+
+            step();
+        }
     })
     .catch(function (error) {
-        console.error('ERROR in Data Loading:', error);
+        console.error('Error loading data:', error);
     });
