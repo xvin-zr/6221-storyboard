@@ -75,9 +75,7 @@ Promise.all([
     currentDataset = d;
     processDataset();
     updateData();
-    const year = +slider.property("value");
-    updateMap(year);
-    updateBarChart(year);
+    animateThroughYears();
     updateLegend();
   });
   let emissionByCountry = {};
@@ -142,10 +140,9 @@ Promise.all([
     legendSvg.select(".legend-axis").call(legendAxis);
   }
   updateLegend();
-  const margin = { top: 20, right: 30, bottom: 50, left: 70 };
-  const barChartWidth = 960 - margin.left - margin.right;
-  const barChartHeight = 300 - margin.top - margin.bottom;
-  const barChartSvg = d3.select("#chart").append("svg").attr("width", barChartWidth + margin.left + margin.right).attr("height", barChartHeight + margin.top + margin.bottom).attr("class", "bar-chart").append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+  const barChartWidth = 960;
+  const barChartHeight = 300;
+  const barChartSvg = d3.select("#chart").append("svg").attr("width", barChartWidth).attr("height", barChartHeight).attr("class", "bar-chart");
   const focusCountries = [
     "United States",
     "China",
@@ -173,6 +170,24 @@ Promise.all([
     barChartSvg.append("g").attr("transform", "translate(30, 0)").call(yAxis);
   }
   updateBarChart(2022);
+  let timer = void 0;
+  function animateThroughYears() {
+    const minYear = +slider.attr("min");
+    const maxYear = +slider.attr("max");
+    let currentYear = minYear;
+    clearTimeout(timer);
+    function step() {
+      updateMap(currentYear);
+      updateBarChart(currentYear);
+      d3.select("#year-label").text(currentYear);
+      slider.property("value", currentYear);
+      if (currentYear < maxYear) {
+        currentYear++;
+        timer = setTimeout(step, 100);
+      }
+    }
+    step();
+  }
 }).catch(function(error) {
-  console.error("ERROR in Data Loading:", error);
+  console.error("Error loading data:", error);
 });
